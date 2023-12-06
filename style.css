@@ -1,0 +1,118 @@
+
+body{
+    margin-top: 0%;
+    background-image: url(Imagens/bomba.jpg);
+}
+
+#wrapper{
+    background-color:#333;
+    float:inherit;
+    width:900px;
+    position:relative;
+    margin:0 auto 0 auto;
+}
+
+header{
+    float:left;
+    width:875px;
+    height:100px;
+    background-color:#333;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-size:30px;
+    padding:30px 0 5px 25px;
+    color:rgb(72, 141, 26);
+}
+
+h1,h2,h3{
+    font-family:Arial, Helvetica, sans-serif;
+    line-height:0px;
+    text-align: center;
+    }
+
+nav{
+    float:left;
+    width:875px;
+    height:30px;
+    background-color:rgb(72, 141, 26);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size:14px;
+    color:#333;
+    padding:17px 0px 3px 25px;
+    display: block;
+}
+
+    nav a{
+        color:#000;
+        text-decoration:none;
+        display: inline;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+        nav a:hover{
+        color:#ffffff;
+        text-decoration:underline;
+        display: inline-block;
+        height: 30px;
+        }
+        
+    a{
+        color:rgb(72, 141, 26);
+       text-decoration:none;
+    }
+        a:hover{
+        text-decoration:underline;
+        }
+
+article{
+    float: right;
+    background-color:#333;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-size:20px;
+    line-height:21px;
+    color:#CCC;
+    padding:25px 25px 5px 25px;
+    text-align: center;
+}
+
+aside{
+    float: left;
+    overflow-x: hidden; /* Desabilita a rolagem horizontal */
+    width:130px;
+    background-color:#575656;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-size:15px;
+    color:#CCC;
+    padding:5px 15px 10px 15px;
+    line-height:16px;
+    border-radius: 10px;
+}
+
+.main{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#footer{
+    clear:both;
+    background-color:rgb(72, 141, 26);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    font-size:15px;
+    color:#333;
+    /* teste de posição vertical */ 
+    vertical-align: middle;
+    text-align: center;
+   /*fim do teste posição vertical*/ 
+}
+
+#footer img{
+    position: relative;
+    vertical-align: middle;   
+        
+}
+    /* A tag “clear:both” garante que o rodapé seja realmente exibido abaixo do artigo principal;
+    informa explicitamente ao navegador que nenhum elemento flutuante é permitido em ambos os lados do rodapé. */
